@@ -1,0 +1,107 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    transition-duration: 0.2s;
+    user-select: none;
+}
+
+html{
+    height: 100%;
+}
+
+body{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: black;
+}
+
+#main-div{
+    border: 1px dashed white;
+    border-radius: 4px;
+    height: 180px;
+    width: 200px;
+    margin: 10px 10px;
+}
+
+.label{
+    font-family: calibri;
+    font-size: 16px;
+    color: white;
+    margin-left: 140px;
+    user-select: text;
+}
+
+#email{
+    width: 140px;
+    height: 22px;
+    outline: none;
+    margin-left: 27px;
+    border: 0px;
+    background-color: rgb(222, 229, 231);
+    padding-left: 4px;
+    user-select: text;
+}
+
+#password{
+    width: 140px;
+    height: 22px;
+    outline: none;
+    margin-left: 27px;
+    border: 0px;
+    background-color: rgb(222, 229, 231);
+    padding-left: 4px;
+    user-select: text;
+}
+
+.button{
+    background-color: #4267B2;
+    color: white;
+    border: 0px;
+    cursor: pointer;
+    font-family: calibri;
+    font-size: 14px;
+    border-radius: 2px;
+}
+
+#register:active{
+    color: black;
+}
+
+#login:active{
+    color: black;
+}
+
+#register{
+    width: 72px;
+    height: 24px;
+    outline: none;
+    margin-top: 5px;
+    margin-left: 30px;
+}
+
+#login{
+    width: 60px;
+    height: 24px;
+    outline: none;
+    
+}
+
+#label1{
+    margin-left: 130px;
+}
+
+#label2{
+    margin-left: 106px;
+}
+
+.input{
+    font-size: 15px;
+}
+
+::selection{
+    background: #4267B2;
+    color: white;
+}
